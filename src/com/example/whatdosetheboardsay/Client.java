@@ -12,6 +12,7 @@ public class Client implements Runnable {
 		private String ServerIP = "127.0.0.1";
 		public static String str = "";
         @Override
+// sean 5
         public void run() {
         	ClientIP = GDB_sc.GetLocalIpAddress();
         	ServerIP = GDB_sc.GetServerIpAddress();
@@ -32,7 +33,7 @@ public class Client implements Runnable {
                         	Log.d("UDP", "C: Sending: data '" + new String(buf) + "'");
                         	socket.send(packet);
                         	Log.d("UDP", "C: Done.");
-//test Sean
+//test Sean 1
                         	}
                 } catch (Exception e) {
                         Log.e("UDP", "C: Error", e);
