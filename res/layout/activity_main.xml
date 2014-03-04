@@ -76,9 +76,9 @@
         android:id="@+id/jumpbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/button2"
-        android:layout_alignLeft="@+id/button2"
+        android:layout_alignBottom="@+id/editText4"
+        android:layout_centerHorizontal="true"
         android:onClick="jumpButton"
-        android:text="Demo" />
+        android:text="Demo1" />
 
 </RelativeLayout>
