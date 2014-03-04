@@ -71,6 +71,7 @@ public class Server implements Runnable  {
                         				new DatagramPacket(ByteBuffer.allocate(4).putInt(-1).array(), 4, returnAddr, 2333);
                         		socket.send(returnPacket);
                         	} 
+// Sean Sync Test 2                   
                         	else{
                         		returnAddr = InetAddress.getByName(attempt.split("|")[0]);
                         		if(attempt.split("|")[1].equals(password)){
